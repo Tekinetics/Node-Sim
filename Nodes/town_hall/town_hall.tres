@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="BaseNode" load_steps=3 format=3 uid="uid://bm5wr42owwlm3"]
+
+[ext_resource type="Script" uid="uid://tadhihq2usyv" path="res://Nodes/base_node.gd" id="1_818cm"]
+[ext_resource type="Texture2D" uid="uid://boyn0sxo2ih3j" path="res://node.svg" id="2_3dqrt"]
+
+[resource]
+script = ExtResource("1_818cm")
+name = "Town Hall"
+texture = ExtResource("2_3dqrt")
+metadata/_custom_type_script = "uid://tadhihq2usyv"

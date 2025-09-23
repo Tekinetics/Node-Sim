@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt5yxwa0itnly"]
+
+[ext_resource type="Script" uid="uid://bmogejx0abjdm" path="res://building.gd" id="1_5j34s"]
+[ext_resource type="Resource" uid="uid://bm5wr42owwlm3" path="res://Nodes/town_hall/town_hall.tres" id="2_2yopf"]
+
+[node name="Building" type="Node2D"]
+script = ExtResource("1_5j34s")
+building_data = ExtResource("2_2yopf")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]

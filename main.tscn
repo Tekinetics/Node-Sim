@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu2th3mpctyr"]
+
+[ext_resource type="Script" uid="uid://dd35bygqq56sa" path="res://grid_placement_system.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D"]
+
+[node name="GridPlacementSystem" type="Node2D" parent="."]
+script = ExtResource("1_ig7tw")
+grid_line_color = Color(1, 1, 1, 0.301961)

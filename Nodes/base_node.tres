@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="BaseNode" load_steps=2 format=3 uid="uid://7fe5wbh5vo18"]
+
+[ext_resource type="Script" uid="uid://tadhihq2usyv" path="res://Nodes/base_node.gd" id="1_og2fr"]
+
+[resource]
+script = ExtResource("1_og2fr")
+name = ""
